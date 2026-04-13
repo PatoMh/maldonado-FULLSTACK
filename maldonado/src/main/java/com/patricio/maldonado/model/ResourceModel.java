@@ -10,11 +10,11 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class ResourceModel {
     private Long id;
-    private String nombre;
+    private String nombre;        // Ej: "Servidor Proliant"
     private String descripcion;
-    private boolean disponible;
-    private String responsable;
-    private LocalDate fechaCreacion;
-    private String tipo;
-    private int cantidad;
+    private boolean disponible;   // Estado de disponibilidad
+    private String responsable;   // Persona a cargo
+    private LocalDate fechaCreacion; 
+    private String tipo;          // Ej: "Hardware", "Software"
+    private int cantidad;         // Valor numérico
 }
